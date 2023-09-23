@@ -3,7 +3,7 @@
 This is a simple web application built with Streamlit that allows users to enter text and generate a summary using the T5 model from the Hugging Face Transformers library.
 ## Usage
 1. Clone this repository to your local machine:
-git clone https://github.com/yourusername/quick-text-summarization-app.git
+git clone https://github.com/rahulnayak28/QuickCheck
 2. Navigate to the project directory:
 cd quick-text-summarization-app
 3. Run the Streamlit app:
