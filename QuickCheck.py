@@ -9,7 +9,7 @@ model = AutoModelWithLMHead.from_pretrained('t5-base', return_dict=True)
 # Streamlit App
 def main():
     st.title("Quick Text Summarization app")
-    text = st.text_area("Enter Text Here")
+    text = st.text_area("Enter Text Here", value="")
 
     if st.button("Summarize"):
         if text:
