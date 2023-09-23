@@ -18,7 +18,7 @@ def main():
             inputs = tokenizer.encode("summarize: " + text, return_tensors='pt', max_length=50512, truncation=True)
 
             # generate the summary by using the model.generate function on T5:
-            summary_ids = model.generate(inputs, max_length=5550, min_length=80, length_penalty=5., num_beams=2)
+            summary_ids = model.generate(inputs, max_length=35550, min_length=580, length_penalty=5., num_beams=2)
 
             # decode the tokenized summary using the tokenizer.decode function:
             summary = tokenizer.decode(summary_ids[0])
